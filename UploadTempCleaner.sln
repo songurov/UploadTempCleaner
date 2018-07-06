@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadTempCleaner", "UploadTempCleaner\UploadTempCleaner.csproj", "{EDC243DE-D7D5-4C7A-905B-058FCF9E8AA3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupWindowsService", "SetupWindowsService\SetupWindowsService.vdproj", "{F720FF65-24D6-40DF-81E4-9635ACDEB670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleAppTest\ConsoleAppTest.csproj", "{A456ED11-42C8-4AA0-AD8C-0AD9F7D8D26B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,12 @@ Global
 		{EDC243DE-D7D5-4C7A-905B-058FCF9E8AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC243DE-D7D5-4C7A-905B-058FCF9E8AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC243DE-D7D5-4C7A-905B-058FCF9E8AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F720FF65-24D6-40DF-81E4-9635ACDEB670}.Debug|Any CPU.ActiveCfg = Debug
+		{F720FF65-24D6-40DF-81E4-9635ACDEB670}.Release|Any CPU.ActiveCfg = Release
+		{A456ED11-42C8-4AA0-AD8C-0AD9F7D8D26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A456ED11-42C8-4AA0-AD8C-0AD9F7D8D26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A456ED11-42C8-4AA0-AD8C-0AD9F7D8D26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A456ED11-42C8-4AA0-AD8C-0AD9F7D8D26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
